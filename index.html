@@ -3,481 +3,569 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profissão Marketing Digital | Guia Completo</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-            line-height: 1.6;
-            min-height: 100vh;
-        }
-
-        /* Header com efeito parallax */
-        header {
-            background: linear-gradient(135deg, rgba(0,123,255,0.9) 0%, rgba(0,86,179,0.9) 100%), 
-                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 80px 20px;
-            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-            margin-bottom: 40px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 3.5rem;
-            font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            animation: fadeInDown 1s ease;
-        }
-
-        header p {
-            font-size: 1.3rem;
-            margin-top: 20px;
-            opacity: 0.9;
-            animation: fadeInUp 1s ease 0.3s both;
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Container principal */
-        .main-container {
-            max-width: 1200px;
-            margin: -50px auto 0;
-            padding: 0 20px;
-            position: relative;
-            z-index: 2;
-        }
-
-        /* Cards das seções */
-        section {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-
-        section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 30px 50px rgba(0,0,0,0.2);
-        }
-
-        h2 {
-            color: #007bff;
-            font-size: 2rem;
-            margin-bottom: 25px;
-            position: relative;
-            padding-bottom: 10px;
-        }
-
-        h2:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 60px;
-            height: 4px;
-            background: linear-gradient(90deg, #007bff, #00ff88);
-            border-radius: 2px;
-        }
-
-        p {
-            font-size: 1.1rem;
-            margin-bottom: 1.2rem;
-            color: #555;
-        }
-
-        /* Listas estilizadas */
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul li {
-            font-size: 1.1rem;
-            margin: 15px 0;
-            padding-left: 30px;
-            position: relative;
-            color: #555;
-        }
-
-        ul li:before {
-            content: '✓';
-            color: #00ff88;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            background: #007bff20;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px;
-        }
-
-        /* Cards de salário */
-        .salary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .salary-card {
-            background: white;
-            border-radius: 15px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            border: 1px solid #eee;
-            transition: transform 0.3s ease;
-        }
-
-        .salary-card:hover {
-            transform: scale(1.05);
-        }
-
-        .salary-card h3 {
-            color: #007bff;
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-
-        .salary-card .value {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
-            margin: 10px 0;
-        }
-
-        .salary-card .period {
-            color: #666;
-            font-size: 0.9rem;
-        }
-
-        /* Fatores de influência */
-        .factors-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .factor-tag {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 8px 20px;
-            border-radius: 25px;
-            font-size: 0.95rem;
-            font-weight: 500;
-            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
-            transition: transform 0.3s ease;
-        }
-
-        .factor-tag:hover {
-            transform: translateY(-2px);
-        }
-
-        /* Estatísticas */
-        .stats-container {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            border-radius: 15px;
-            padding: 30px;
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 3rem;
-            font-weight: bold;
-            color: #007bff;
-            display: block;
-        }
-
-        .stat-label {
-            color: #555;
-            font-size: 1.1rem;
-        }
-
-        /* Nota de corte */
-        .cut-score-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-
-        .cut-score-item {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            border-left: 4px solid #007bff;
-        }
-
-        .cut-score-item h4 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .cut-score-item .score {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: #007bff;
-        }
-
-        /* Footer */
-        footer {
-            background: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 40px 20px 20px;
-            margin-top: 50px;
-            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-        }
-
-        footer p {
-            color: #fff;
-            opacity: 0.8;
-            font-size: 1rem;
-        }
-
-        /* Botões de ação */
-        .cta-button {
-            display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #007bff, #00ff88);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            margin-top: 20px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-            cursor: pointer;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(0,123,255,0.4);
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.5rem;
-            }
-            
-            header p {
-                font-size: 1.1rem;
-            }
-            
-            .salary-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            h2 {
-                font-size: 1.8rem;
-            }
-            
-            section {
-                padding: 20px;
-            }
-        }
-
-        /* Animação de entrada */
-        .fade-in {
-            animation: fadeIn 1s ease;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Ícones decorativos */
-        .icon {
-            font-size: 2rem;
-            margin-bottom: 15px;
-            color: #007bff;
-        }
-
-        .highlight {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: bold;
-        }
-    </style>
+    <title>Profissão Marketing Digital | Guia Completo 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header com navegação -->
     <header>
-        <h1>🚀 Profissão Marketing Digital</h1>
-        <p>Descubra o futuro do marketing e transforme sua carreira</p>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>Marketing<span class="highlight">Pro</span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#salarios">Salários</a></li>
+                    <li><a href="#carreira">Carreira</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#contato" class="nav-cta">Começar Agora</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <div class="header-text">
+                <h1 class="glitch" data-text="Profissão Marketing Digital">Profissão Marketing Digital</h1>
+                <p class="typing-effect">Transforme sua carreira na área mais promissora do momento</p>
+                <div class="header-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="98">0</span><span>%</span>
+                        <span class="stat-label">Empregabilidade</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="150">0</span><span>+</span>
+                        <span class="stat-label">Áreas de atuação</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="40">0</span><span>%</span>
+                        <span class="stat-label">Crescimento anual</span>
+                    </div>
+                </div>
+                <a href="#sobre" class="cta-button pulse">
+                    <i class="fas fa-arrow-down"></i>
+                    Explorar Carreira
+                </a>
+            </div>
+            <div class="header-image">
+                <div class="floating-card">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <div class="main-container">
-        <section class="fade-in">
-            <h2>📱 O que faz um Profissional de Marketing Digital?</h2>
-            <p>O profissional de Marketing Digital atua no planejamento, execução e análise de estratégias de marketing em canais digitais. Suas responsabilidades podem incluir:</p>
-            <ul>
-                <li><strong>Campanhas pagas:</strong> Criação de campanhas publicitárias (Google Ads, Facebook Ads, Instagram Ads, etc.)</li>
-                <li><strong>Redes sociais:</strong> Gestão de redes sociais (criação de conteúdo, interações com seguidores)</li>
-                <li><strong>SEO:</strong> Otimização de sites para mecanismos de busca (SEO)</li>
-                <li><strong>Análise de dados:</strong> Análise de dados de campanhas e comportamento do consumidor</li>
-                <li><strong>E-mail marketing:</strong> E-mail marketing</li>
-                <li><strong>Vendas online:</strong> Estratégias de vendas online</li>
-            </ul>
-        </section>
+    <main>
+        <!-- Seção Sobre com cards interativos -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="section-title">O Universo do Marketing Digital</h2>
+                <p class="section-subtitle">Descubra as infinitas possibilidades dessa carreira em expansão</p>
 
-        <section class="fade-in">
-            <h2>💰 Salário de um Profissional de Marketing Digital</h2>
-            <p>Os salários na área de marketing digital podem variar bastante dependendo da experiência do profissional, da empresa e da região onde ele trabalha. Veja abaixo uma média salarial para diferentes posições:</p>
-            
-            <div class="salary-grid">
-                <div class="salary-card">
-                    <div class="icon">🎓</div>
-                    <h3>Assistente</h3>
-                    <div class="value">R$ 1.800 - R$ 3.500</div>
-                    <div class="period">por mês</div>
-                </div>
-                
-                <div class="salary-card">
-                    <div class="icon">📊</div>
-                    <h3>Analista</h3>
-                    <div class="value">R$ 3.500 - R$ 6.000</div>
-                    <div class="period">por mês</div>
-                </div>
-                
-                <div class="salary-card">
-                    <div class="icon">🎯</div>
-                    <h3>Coordenador</h3>
-                    <div class="value">R$ 6.000 - R$ 10.000</div>
-                    <div class="period">por mês</div>
-                </div>
-                
-                <div class="salary-card">
-                    <div class="icon">⚡</div>
-                    <h3>Gerente</h3>
-                    <div class="value">R$ 8.000 - R$ 15.000</div>
-                    <div class="period">por mês</div>
-                </div>
-                
-                <div class="salary-card">
-                    <div class="icon">👑</div>
-                    <h3>Diretor (CMO)</h3>
-                    <div class="value">R$ 15.000 - R$ 30.000</div>
-                    <div class="period">por mês</div>
-                </div>
-            </div>
-
-            <p><strong>🎯 Fatores que influenciam o salário:</strong></p>
-            <div class="factors-container">
-                <span class="factor-tag">Experiência</span>
-                <span class="factor-tag">Certificações</span>
-                <span class="factor-tag">Localização</span>
-                <span class="factor-tag">Tipo de empresa</span>
-                <span class="factor-tag">Portfólio</span>
-                <span class="factor-tag">Idiomas</span>
-            </div>
-        </section>
-
-        <section class="fade-in">
-            <h2>📊 Média Salarial do Brasileiro</h2>
-            <div class="stats-container">
-                <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                    <div>
-                        <span class="stat-number">R$ 2.500</span>
-                        <span class="stat-label">Média Brasil (IBGE)</span>
+                <div class="cards-grid">
+                    <div class="card hover-3d">
+                        <div class="card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Estratégia Digital</h3>
+                        <p>Planejamento e execução de estratégias omnichannel para maximizar resultados</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Análise de mercado</li>
+                            <li><i class="fas fa-check"></i> Funil de vendas</li>
+                            <li><i class="fas fa-check"></i> Jornada do cliente</li>
+                        </ul>
                     </div>
-                    <div>
-                        <span class="stat-number">R$ 3.500+</span>
-                        <span class="stat-label">Média Marketing Digital</span>
+
+                    <div class="card hover-3d">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Análise de Dados</h3>
+                        <p>Tomada de decisão baseada em dados e métricas avançadas</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Google Analytics</li>
+                            <li><i class="fas fa-check"></i> Data Studio</li>
+                            <li><i class="fas fa-check"></i> Testes A/B</li>
+                        </ul>
+                    </div>
+
+                    <div class="card hover-3d">
+                        <div class="card-icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <h3>Conteúdo & SEO</h3>
+                        <p>Criação de conteúdo relevante e otimização para mecanismos de busca</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> SEO On-page</li>
+                            <li><i class="fas fa-check"></i> Link Building</li>
+                            <li><i class="fas fa-check"></i> Content Marketing</li>
+                        </ul>
+                    </div>
+
+                    <div class="card hover-3d">
+                        <div class="card-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <h3>Mídia Paga</h3>
+                        <p>Gestão de campanhas em múltiplas plataformas com ROIs otimizados</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Google Ads</li>
+                            <li><i class="fas fa-check"></i> Meta Ads</li>
+                            <li><i class="fas fa-check"></i> TikTok Ads</li>
+                        </ul>
                     </div>
                 </div>
-                <p style="margin-top: 20px;">A média salarial do brasileiro, segundo o IBGE, é de aproximadamente <strong>R$ 2.500 a R$ 3.000 mensais</strong>, o que coloca a área de Marketing Digital com salários geralmente <span class="highlight">superiores à média nacional</span>.</p>
             </div>
         </section>
 
-        <section class="fade-in">
-            <h2>📚 Nota de Corte para Cursos</h2>
-            <p>A nota de corte para cursos de Marketing Digital pode variar dependendo da instituição:</p>
-            
-            <div class="cut-score-container">
-                <div class="cut-score-item">
-                    <h4>🎓 Graduação</h4>
-                    <div class="score">600 - 700</div>
-                    <p>pontos no ENEM</p>
-                </div>
-                
-                <div class="cut-score-item">
-                    <h4>🔧 Técnico</h4>
-                    <div class="score">450 - 500</div>
-                    <p>pontos no ENEM</p>
-                </div>
-                
-                <div class="cut-score-item">
-                    <h4>📜 Pós-graduação</h4>
-                    <div class="score">Graduação</div>
-                    <p>exigida</p>
-                </div>
-            </div>
+        <!-- Seção Salários com gráficos -->
+        <section id="salarios" class="section bg-gradient">
+            <div class="container">
+                <h2 class="section-title">📊 Panorama Salarial 2026</h2>
+                <p class="section-subtitle">Médias salariais atualizadas por nível de experiência e especialização</p>
 
-            <div style="background: #f0f7ff; border-radius: 10px; padding: 20px; margin-top: 20px;">
-                <p style="margin: 0;"><strong>💡 Certificações profissionais:</strong> Muitos profissionais optam por fazer cursos de certificação em plataformas como <strong>Google Ads, Facebook Blueprint, HubSpot</strong>, que não exigem vestibular, mas são altamente valorizados no mercado.</p>
+                <div class="salary-overview">
+                    <div class="salary-chart">
+                        <canvas id="salaryChart"></canvas>
+                    </div>
+                    <div class="salary-legend">
+                        <div class="legend-item">
+                            <span class="color-bar junior"></span>
+                            <span>Junior: R$ 2.500 - 4.500</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="color-bar pleno"></span>
+                            <span>Pleno: R$ 4.500 - 7.500</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="color-bar senior"></span>
+                            <span>Sênior: R$ 7.500 - 12.000</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="color-bar specialist"></span>
+                            <span>Especialista: R$ 12.000 - 18.000+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="salary-cards">
+                    <div class="salary-card glass-effect">
+                        <div class="card-header">
+                            <i class="fas fa-user-graduate"></i>
+                            <h3>Iniciante</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="price">R$ 3.200</div>
+                            <p>Média mensal</p>
+                            <ul>
+                                <li><i class="fas fa-certificate"></i> Certificações básicas</li>
+                                <li><i class="fas fa-clock"></i> 0-2 anos experiência</li>
+                                <li><i class="fas fa-tasks"></i> Suporte operacional</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="salary-card glass-effect featured">
+                        <div class="card-header">
+                            <i class="fas fa-user-tie"></i>
+                            <h3>Profissional</h3>
+                            <span class="badge">Mais procurado</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="price">R$ 6.800</div>
+                            <p>Média mensal</p>
+                            <ul>
+                                <li><i class="fas fa-certificate"></i> Certificações avançadas</li>
+                                <li><i class="fas fa-clock"></i> 2-5 anos experiência</li>
+                                <li><i class="fas fa-chart-line"></i> Gestão de projetos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="salary-card glass-effect">
+                        <div class="card-header">
+                            <i class="fas fa-user-cog"></i>
+                            <h3>Especialista</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="price">R$ 12.500</div>
+                            <p>Média mensal</p>
+                            <ul>
+                                <li><i class="fas fa-trophy"></i> Especialização</li>
+                                <li><i class="fas fa-clock"></i> 5+ anos experiência</li>
+                                <li><i class="fas fa-sitemap"></i> Direção estratégica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-box">
+                    <h3>Comparativo com Média Nacional</h3>
+                    <div class="comparison-bars">
+                        <div class="comp-item">
+                            <span>Brasil (IBGE)</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 35%">R$ 2.800</div>
+                            </div>
+                        </div>
+                        <div class="comp-item">
+                            <span>Marketing Digital</span>
+                            <div class="progress-bar">
+                                <div class="progress highlight-bar" style="width: 85%">R$ 6.800</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="comparison-note">
+                        <i class="fas fa-info-circle"></i>
+                        Profissionais de Marketing Digital ganham em média 143% a mais que a média nacional
+                    </p>
+                </div>
             </div>
         </section>
 
-        <div style="text-align: center; margin: 40px 0;">
-            <button class="cta-button" onclick="alert('Obrigado pelo interesse! Em breve entraremos em contato.')">
-                Quero saber mais sobre Marketing Digital
-            </button>
+        <!-- Seção Carreira -->
+        <section id="carreira" class="section">
+            <div class="container">
+                <h2 class="section-title">🚀 Plano de Carreira</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-effect">
+                            <h3>Fase 1: Fundamentos</h3>
+                            <p>6-12 meses</p>
+                            <ul>
+                                <li>Introdução ao Marketing Digital</li>
+                                <li>Google Analytics Individual Qualification</li>
+                                <li>Fundamentos de SEO</li>
+                                <li>Social Media Marketing</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-effect">
+                            <h3>Fase 2: Especialização</h3>
+                            <p>1-2 anos</p>
+                            <ul>
+                                <li>Certificação Google Ads (Search, Display, Video)</li>
+                                <li>Facebook Blueprint Certification</li>
+                                <li>Inbound Certification (HubSpot)</li>
+                                <li>Data Studio Reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-effect">
+                            <h3>Fase 3: Avançado</h3>
+                            <p>2-4 anos</p>
+                            <ul>
+                                <li>Estratégia de Marketing Digital</li>
+                                <li>Growth Hacking</li>
+                                <li>Marketing Automation</li>
+                                <li>Análise de Dados Avançada</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-effect">
+                            <h3>Fase 4: Liderança</h3>
+                            <p>4+ anos</p>
+                            <ul>
+                                <li>Gestão de Equipes</li>
+                                <li>Estratégia de Negócios</li>
+                                <li>ROI e Performance</li>
+                                <li>Inovação e Tendências</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Habilidades Mais Valorizadas</h3>
+                    <div class="skills-cloud">
+                        <span class="skill-tag" data-weight="90">SEO</span>
+                        <span class="skill-tag" data-weight="95">Google Ads</span>
+                        <span class="skill-tag" data-weight="85">Analytics</span>
+                        <span class="skill-tag" data-weight="80">Content Marketing</span>
+                        <span class="skill-tag" data-weight="75">Email Marketing</span>
+                        <span class="skill-tag" data-weight="88">Social Media</span>
+                        <span class="skill-tag" data-weight="92">Data Analysis</span>
+                        <span class="skill-tag" data-weight="78">CRM</span>
+                        <span class="skill-tag" data-weight="83">Marketing Automation</span>
+                        <span class="skill-tag" data-weight="70">UX Writing</span>
+                        <span class="skill-tag" data-weight="77">Copywriting</span>
+                        <span class="skill-tag" data-weight="82">Facebook Ads</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Cursos e Certificações -->
+        <section id="cursos" class="section bg-pattern">
+            <div class="container">
+                <h2 class="section-title">📚 Formação e Certificações</h2>
+                
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <h3>Google Garage</h3>
+                        <p>Fundações do Marketing Digital</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 40h</span>
+                            <span><i class="fas fa-star"></i> Gratuito</span>
+                        </div>
+                        <div class="course-difficulty beginner">Iniciante</div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <h3>Meta Certified</h3>
+                        <p>Digital Marketing Associate</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 20h</span>
+                            <span><i class="fas fa-star"></i> US$ 99</span>
+                        </div>
+                        <div class="course-difficulty intermediate">Intermediário</div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn Learning</h3>
+                        <p>Marketing Digital Completo</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 60h</span>
+                            <span><i class="fas fa-star"></i> Assinatura</span>
+                        </div>
+                        <div class="course-difficulty advanced">Avançado</div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>HubSpot Academy</h3>
+                        <p>Inbound Marketing</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 30h</span>
+                            <span><i class="fas fa-star"></i> Gratuito</span>
+                        </div>
+                        <div class="course-difficulty intermediate">Intermediário</div>
+                    </div>
+                </div>
+
+                <div class="cut-score-section">
+                    <h3>Notas de Corte - Graduação</h3>
+                    <div class="universities">
+                        <div class="uni-card">
+                            <h4>USP</h4>
+                            <div class="score">720-780</div>
+                            <small>pontos ENEM</small>
+                        </div>
+                        <div class="uni-card">
+                            <h4>FGV</h4>
+                            <div class="score">700-750</div>
+                            <small>pontos ENEM</small>
+                        </div>
+                        <div class="uni-card">
+                            <h4>ESPM</h4>
+                            <div class="score">680-730</div>
+                            <small>pontos ENEM</small>
+                        </div>
+                        <div class="uni-card">
+                            <h4>PUC</h4>
+                            <div class="score">650-700</div>
+                            <small>pontos ENEM</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Tendências 2026 -->
+        <section class="section bg-dark">
+            <div class="container">
+                <h2 class="section-title light">🔮 Tendências 2026</h2>
+                
+                <div class="trends-container">
+                    <div class="trend-card">
+                        <div class="trend-number">1</div>
+                        <h3>IA no Marketing</h3>
+                        <p>Personalização em escala com machine learning</p>
+                        <div class="trend-progress">
+                            <div class="progress" style="width: 95%">95%</div>
+                        </div>
+                    </div>
+
+                    <div class="trend-card">
+                        <div class="trend-number">2</div>
+                        <h3>Vídeo Marketing</h3>
+                        <p>Conteúdo em vídeo domina as estratégias</p>
+                        <div class="trend-progress">
+                            <div class="progress" style="width: 89%">89%</div>
+                        </div>
+                    </div>
+
+                    <div class="trend-card">
+                        <div class="trend-number">3</div>
+                        <h3>Voice Search</h3>
+                        <p>Otimização para buscas por voz</p>
+                        <div class="trend-progress">
+                            <div class="progress" style="width: 67%">67%</div>
+                        </div>
+                    </div>
+
+                    <div class="trend-card">
+                        <div class="trend-number">4</div>
+                        <h3>Marketing 5.0</h3>
+                        <p>Tecnologia + experiência humana</p>
+                        <div class="trend-progress">
+                            <div class="progress" style="width: 78%">78%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção FAQ -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">❓ Perguntas Frequentes</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Preciso de faculdade para trabalhar com Marketing Digital?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Não é obrigatório, mas ajuda. Muitos profissionais são autodidatas e constroem carreira através de certificações e experiência prática. No entanto, uma graduação pode acelerar o crescimento e abrir portas em empresas maiores.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Qual a melhor área para começar?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Recomenda-se começar por SEO ou Mídia Paga, pois são áreas com alta demanda e resultados mensuráveis. Social Media também é uma boa porta de entrada, mas é mais concorrida.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Quanto tempo leva para se tornar um especialista?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Em média, 3-5 anos de estudo e prática constante. O marketing digital evolui rapidamente, então a aprendizagem contínua é essencial mesmo para profissionais experientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content glass-effect">
+                <h2>Receba Conteúdo Exclusivo</h2>
+                <p>Dicas, vagas e tendências direto no seu email</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor email" required>
+                    <button type="submit" class="cta-button">Inscrever-se</button>
+                </form>
+                <small>Prometemos não enviar spam 😉</small>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p style="max-width: 600px; margin: 0 auto 20px;">Transforme sua carreira com Marketing Digital - A profissão do futuro está ao seu alcance!</p>
-        <p>&copy; 2026 Profissão Marketing Digital | Todos os direitos reservados</p>
-        <p style="font-size: 0.9rem; margin-top: 20px;">Desenvolvido com 💙 para profissionais em ascensão</p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-rocket"></i>
+                        <span>Marketing<span class="highlight">Pro</span></span>
+                    </div>
+                    <p>Transformando carreiras através do Marketing Digital desde 2020</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#salarios">Salários</a></li>
+                        <li><a href="#carreira">Carreira</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guia de Carreira</a></li>
+                        <li><a href="#">Certificações</a></li>
+                        <li><a href="#">Vagas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@marketingpro.com</li>
+                        <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MarketingPro - Todos os direitos reservados</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
