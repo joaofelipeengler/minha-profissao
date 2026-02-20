@@ -1,1219 +1,1347 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profissão Marketing Digital | Guia Completo 2026</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-    <!-- Header com navegação -->
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-rocket"></i>
-                    <span>Marketing<span class="highlight">Pro</span></span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#salarios">Salários</a></li>
-                    <li><a href="#carreira">Carreira</a></li>
-                    <li><a href="#especializacoes">Especializações</a></li>
-                    <li><a href="#cursos">Cursos</a></li>
-                    <li><a href="#mercado">Mercado</a></li>
-                    <li><a href="#contato" class="nav-cta">Começar Agora</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-
-        <div class="header-content">
-            <div class="header-text">
-                <h1 class="glitch" data-text="Profissão Marketing Digital">Profissão Marketing Digital</h1>
-                <p class="typing-effect">Transforme sua carreira na área mais promissora do momento</p>
-                <div class="header-stats">
-                    <div class="stat">
-                        <span class="stat-number" data-target="98">0</span><span>%</span>
-                        <span class="stat-label">Empregabilidade</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number" data-target="150">0</span><span>+</span>
-                        <span class="stat-label">Áreas de atuação</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number" data-target="40">0</span><span>%</span>
-                        <span class="stat-label">Crescimento anual</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number" data-target="85">0</span><span>%</span>
-                        <span class="stat-label">Home Office</span>
-                    </div>
-                </div>
-                <a href="#sobre" class="cta-button pulse">
-                    <i class="fas fa-arrow-down"></i>
-                    Explorar Carreira
-                </a>
-            </div>
-            <div class="header-image">
-                <div class="floating-card">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="floating-card">
-                    <i class="fas fa-search"></i>
-                </div>
-                <div class="floating-card">
-                    <i class="fas fa-share-alt"></i>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- Seção Sobre com cards interativos -->
-        <section id="sobre" class="section">
-            <div class="container">
-                <h2 class="section-title">O Universo do Marketing Digital</h2>
-                <p class="section-subtitle">Descubra as infinitas possibilidades dessa carreira em expansão</p>
-
-                <div class="stats-grid">
-                    <div class="stat-card glass-effect">
-                        <i class="fas fa-briefchase"></i>
-                        <h3>+50 mil</h3>
-                        <p>Vagas abertas em 2026</p>
-                    </div>
-                    <div class="stat-card glass-effect">
-                        <i class="fas fa-dollar-sign"></i>
-                        <h3>R$ 85 bi</h3>
-                        <p>Mercado no Brasil</p>
-                    </div>
-                    <div class="stat-card glass-effect">
-                        <i class="fas fa-globe"></i>
-                        <h3>127%</h3>
-                        <p>Crescimento pós-pandemia</p>
-                    </div>
-                    <div class="stat-card glass-effect">
-                        <i class="fas fa-users"></i>
-                        <h3>450 mil</h3>
-                        <p>Profissionais ativos</p>
-                    </div>
-                </div>
-
-                <div class="cards-grid">
-                    <div class="card hover-3d">
-                        <div class="card-icon">
-                            <i class="fas fa-bullseye"></i>
-                        </div>
-                        <h3>Estratégia Digital</h3>
-                        <p>Planejamento e execução de estratégias omnichannel para maximizar resultados</p>
-                        <ul class="card-list">
-                            <li><i class="fas fa-check"></i> Análise de mercado</li>
-                            <li><i class="fas fa-check"></i> Funil de vendas</li>
-                            <li><i class="fas fa-check"></i> Jornada do cliente</li>
-                            <li><i class="fas fa-check"></i> OKRs e KPIs</li>
-                        </ul>
-                        <div class="card-footer">
-                            <span class="salary-badge">R$ 5k - R$ 15k</span>
-                        </div>
-                    </div>
-
-                    <div class="card hover-3d">
-                        <div class="card-icon">
-                            <i class="fas fa-chart-bar"></i>
-                        </div>
-                        <h3>Análise de Dados</h3>
-                        <p>Tomada de decisão baseada em dados e métricas avançadas</p>
-                        <ul class="card-list">
-                            <li><i class="fas fa-check"></i> Google Analytics 4</li>
-                            <li><i class="fas fa-check"></i> Data Studio</li>
-                            <li><i class="fas fa-check"></i> Testes A/B</li>
-                            <li><i class="fas fa-check"></i> Big Data</li>
-                        </ul>
-                        <div class="card-footer">
-                            <span class="salary-badge">R$ 6k - R$ 18k</span>
-                        </div>
-                    </div>
-
-                    <div class="card hover-3d">
-                        <div class="card-icon">
-                            <i class="fas fa-pen-fancy"></i>
-                        </div>
-                        <h3>Conteúdo & SEO</h3>
-                        <p>Criação de conteúdo relevante e otimização para mecanismos de busca</p>
-                        <ul class="card-list">
-                            <li><i class="fas fa-check"></i> SEO On-page</li>
-                            <li><i class="fas fa-check"></i> Link Building</li>
-                            <li><i class="fas fa-check"></i> Content Marketing</li>
-                            <li><i class="fas fa-check"></i> SEO Técnico</li>
-                        </ul>
-                        <div class="card-footer">
-                            <span class="salary-badge">R$ 4k - R$ 12k</span>
-                        </div>
-                    </div>
-
-                    <div class="card hover-3d">
-                        <div class="card-icon">
-                            <i class="fas fa-ad"></i>
-                        </div>
-                        <h3>Mídia Paga</h3>
-                        <p>Gestão de campanhas em múltiplas plataformas com ROIs otimizados</p>
-                        <ul class="card-list">
-                            <li><i class="fas fa-check"></i> Google Ads</li>
-                            <li><i class="fas fa-check"></i> Meta Ads</li>
-                            <li><i class="fas fa-check"></i> TikTok Ads</li>
-                            <li><i class="fas fa-check"></i> LinkedIn Ads</li>
-                        </ul>
-                        <div class="card-footer">
-                            <span class="salary-badge">R$ 5k - R$ 20k</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Salários com tabelas detalhadas -->
-        <section id="salarios" class="section bg-gradient">
-            <div class="container">
-                <h2 class="section-title">📊 Panorama Salarial 2026</h2>
-                <p class="section-subtitle">Médias salariais atualizadas por nível de experiência, especialização e região</p>
-
-                <!-- Tabela de Salários por Nível -->
-                <div class="salary-table-container">
-                    <table class="salary-table">
-                        <thead>
-                            <tr>
-                                <th>Nível</th>
-                                <th>Experiência</th>
-                                <th>Salário Inicial</th>
-                                <th>Salário Médio</th>
-                                <th>Salário Sênior</th>
-                                <th>Benefícios</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Júnior</strong></td>
-                                <td>0-2 anos</td>
-                                <td>R$ 2.000</td>
-                                <td>R$ 3.200</td>
-                                <td>R$ 4.500</td>
-                                <td>VR + VT + PLR</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Pleno</strong></td>
-                                <td>2-4 anos</td>
-                                <td>R$ 4.500</td>
-                                <td>R$ 6.800</td>
-                                <td>R$ 9.000</td>
-                                <td>VR + VA + PLR + Home Office</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Sênior</strong></td>
-                                <td>4-6 anos</td>
-                                <td>R$ 8.000</td>
-                                <td>R$ 12.000</td>
-                                <td>R$ 16.000</td>
-                                <td>Todos + Bônus + Stock Options</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Especialista</strong></td>
-                                <td>6+ anos</td>
-                                <td>R$ 15.000</td>
-                                <td>R$ 22.000</td>
-                                <td>R$ 35.000</td>
-                                <td>Todos + Participação nos Lucros</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Salários por Especialização -->
-                <h3 class="subsection-title">Salários por Especialização (Pleno)</h3>
-                <div class="specialization-grid">
-                    <div class="spec-card">
-                        <h4>SEO</h4>
-                        <div class="spec-salary">R$ 5.500 - R$ 8.500</div>
-                        <div class="demand high">Demanda: Alta</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 2.500 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 80%</p>
-                        </div>
-                    </div>
-
-                    <div class="spec-card">
-                        <h4>Google Ads</h4>
-                        <div class="spec-salary">R$ 6.000 - R$ 9.000</div>
-                        <div class="demand high">Demanda: Altíssima</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 3.200 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 75%</p>
-                        </div>
-                    </div>
-
-                    <div class="spec-card">
-                        <h4>Social Media</h4>
-                        <div class="spec-salary">R$ 4.000 - R$ 7.000</div>
-                        <div class="demand medium">Demanda: Média</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 1.800 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 60%</p>
-                        </div>
-                    </div>
-
-                    <div class="spec-card">
-                        <h4>Data Analyst</h4>
-                        <div class="spec-salary">R$ 7.000 - R$ 12.000</div>
-                        <div class="demand high">Demanda: Alta</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 2.100 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 70%</p>
-                        </div>
-                    </div>
-
-                    <div class="spec-card">
-                        <h4>E-commerce</h4>
-                        <div class="spec-salary">R$ 5.500 - R$ 9.500</div>
-                        <div class="demand high">Demanda: Alta</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 2.800 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 50%</p>
-                        </div>
-                    </div>
-
-                    <div class="spec-card">
-                        <h4>Marketing Automation</h4>
-                        <div class="spec-salary">R$ 8.000 - R$ 14.000</div>
-                        <div class="demand very-high">Demanda: Altíssima</div>
-                        <div class="spec-details">
-                            <p><i class="fas fa-building"></i> 1.500 vagas/mês</p>
-                            <p><i class="fas fa-clock"></i> Home Office: 85%</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Salários por Região -->
-                <h3 class="subsection-title">Salários por Região (Nível Pleno)</h3>
-                <div class="region-grid">
-                    <div class="region-card">
-                        <h4>Sudeste</h4>
-                        <div class="region-value">R$ 7.200</div>
-                        <small>São Paulo, RJ, MG</small>
-                    </div>
-                    <div class="region-card">
-                        <h4>Sul</h4>
-                        <div class="region-value">R$ 6.500</div>
-                        <small>PR, SC, RS</small>
-                    </div>
-                    <div class="region-card">
-                        <h4>Centro-Oeste</h4>
-                        <div class="region-value">R$ 6.000</div>
-                        <small>DF, GO, MT</small>
-                    </div>
-                    <div class="region-card">
-                        <h4>Nordeste</h4>
-                        <div class="region-value">R$ 5.200</div>
-                        <small>BA, PE, CE</small>
-                    </div>
-                    <div class="region-card">
-                        <h4>Norte</h4>
-                        <div class="region-value">R$ 4.800</div>
-                        <small>PA, AM, RO</small>
-                    </div>
-                </div>
-
-                <!-- Comparativo com Média Nacional -->
-                <div class="comparison-box glass-effect">
-                    <h3>Comparativo com Média Nacional IBGE 2026</h3>
-                    <div class="comparison-bars">
-                        <div class="comp-item">
-                            <span>Brasil (Geral)</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 30%">R$ 2.800</div>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <span>Marketing Digital</span>
-                            <div class="progress-bar">
-                                <div class="progress highlight-bar" style="width: 75%">R$ 6.800</div>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <span>Tecnologia</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 70%">R$ 6.200</div>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <span>Comércio</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 35%">R$ 3.200</div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="comparison-note">
-                        <i class="fas fa-info-circle"></i>
-                        Profissionais de Marketing Digital ganham em média <strong>143% a mais</strong> que a média nacional
-                    </p>
-                </div>
-
-                <!-- Fatores que Influenciam o Salário -->
-                <div class="factors-box">
-                    <h3>🎯 Fatores que Mais Influenciam o Salário</h3>
-                    <div class="factors-grid">
-                        <div class="factor-item">
-                            <span class="factor-percent">+45%</span>
-                            <span>Certificações Google/Meta</span>
-                        </div>
-                        <div class="factor-item">
-                            <span class="factor-percent">+35%</span>
-                            <span>Inglês Avançado</span>
-                        </div>
-                        <div class="factor-item">
-                            <span class="factor-percent">+50%</span>
-                            <span>Portfólio com cases</span>
-                        </div>
-                        <div class="factor-item">
-                            <span class="factor-percent">+30%</span>
-                            <span>Experiência internacional</span>
-                        </div>
-                        <div class="factor-item">
-                            <span class="factor-percent">+60%</span>
-                            <span>Especialização em dados</span>
-                        </div>
-                        <div class="factor-item">
-                            <span class="factor-percent">+25%</span>
-                            <span>Pós-graduação</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Carreira Detalhada -->
-        <section id="carreira" class="section">
-            <div class="container">
-                <h2 class="section-title">🚀 Plano de Carreira Completo</h2>
-                
-                <!-- Timeline de Carreira -->
-                <div class="timeline-detailed">
-                    <div class="timeline-phase">
-                        <div class="phase-header">
-                            <span class="phase-year">Ano 0-1</span>
-                            <h3>Fase 1: Fundamentos</h3>
-                        </div>
-                        <div class="phase-content">
-                            <ul>
-                                <li><i class="fas fa-book"></i> Introdução ao Marketing Digital (40h)</li>
-                                <li><i class="fas fa-certificate"></i> Google Analytics Individual Qualification</li>
-                                <li><i class="fas fa-search"></i> Fundamentos de SEO</li>
-                                <li><i class="fas fa-hashtag"></i> Social Media Marketing</li>
-                                <li><i class="fas fa-pen"></i> Copywriting Básico</li>
-                            </ul>
-                            <div class="phase-outcome">
-                                <strong>Resultado:</strong> Assistente de Marketing | R$ 2.000 - R$ 3.500
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-phase">
-                        <div class="phase-header">
-                            <span class="phase-year">Ano 1-2</span>
-                            <h3>Fase 2: Especialização</h3>
-                        </div>
-                        <div class="phase-content">
-                            <ul>
-                                <li><i class="fas fa-ad"></i> Google Ads Search Certification</li>
-                                <li><i class="fas fa-video"></i> Google Ads Video Certification</li>
-                                <li><i class="fab fa-facebook"></i> Facebook Blueprint Certification</li>
-                                <li><i class="fas fa-chart-line"></i> Data Studio Reporting</li>
-                                <li><i class="fas fa-envelope"></i> Email Marketing (RD Station)</li>
-                            </ul>
-                            <div class="phase-outcome">
-                                <strong>Resultado:</strong> Analista de Marketing Jr | R$ 3.500 - R$ 5.000
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-phase">
-                        <div class="phase-header">
-                            <span class="phase-year">Ano 2-4</span>
-                            <h3>Fase 3: Avançado</h3>
-                        </div>
-                        <div class="phase-content">
-                            <ul>
-                                <li><i class="fas fa-rocket"></i> Growth Hacking</li>
-                                <li><i class="fas fa-robot"></i> Marketing Automation (HubSpot)</li>
-                                <li><i class="fas fa-chart-pie"></i> Análise de Dados Avançada</li>
-                                <li><i class="fas fa-code"></i> HTML/CSS para Marketing</li>
-                                <li><i class="fas fa-tachometer-alt"></i> CRO (Otimização de Conversão)</li>
-                            </ul>
-                            <div class="phase-outcome">
-                                <strong>Resultado:</strong> Analista Pleno | R$ 5.000 - R$ 8.000
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-phase">
-                        <div class="phase-header">
-                            <span class="phase-year">Ano 4-6</span>
-                            <h3>Fase 4: Estratégia</h3>
-                        </div>
-                        <div class="phase-content">
-                            <ul>
-                                <li><i class="fas fa-users"></i> Gestão de Equipes</li>
-                                <li><i class="fas fa-chart-bar"></i> Estratégia de Negócios</li>
-                                <li><i class="fas fa-dollar-sign"></i> ROI e Performance</li>
-                                <li><i class="fas fa-bullhorn"></i> Branding Estratégico</li>
-                                <li><i class="fas fa-globe"></i> Marketing Internacional</li>
-                            </ul>
-                            <div class="phase-outcome">
-                                <strong>Resultado:</strong> Coordenador | R$ 8.000 - R$ 12.000
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-phase">
-                        <div class="phase-header">
-                            <span class="phase-year">Ano 6+</span>
-                            <h3>Fase 5: Liderança</h3>
-                        </div>
-                        <div class="phase-content">
-                            <ul>
-                                <li><i class="fas fa-sitemap"></i> Gestão de Departamentos</li>
-                                <li><i class="fas fa-lightbulb"></i> Inovação e Tendências</li>
-                                <li><i class="fas fa-handshake"></i> Negociação com C-Level</li>
-                                <li><i class="fas fa-chart-line"></i> Planejamento Estratégico</li>
-                                <li><i class="fas fa-trophy"></i> MBA ou Especialização</li>
-                            </ul>
-                            <div class="phase-outcome">
-                                <strong>Resultado:</strong> Gerente / Diretor | R$ 12.000 - R$ 30.000+
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Habilidades Mais Valorizadas -->
-                <div class="skills-section">
-                    <h3>Habilidades Mais Valorizadas em 2026</h3>
-                    <div class="skills-cloud">
-                        <span class="skill-tag" data-weight="95">Google Analytics 4</span>
-                        <span class="skill-tag" data-weight="92">SEO</span>
-                        <span class="skill-tag" data-weight="90">Google Ads</span>
-                        <span class="skill-tag" data-weight="88">Data Analysis</span>
-                        <span class="skill-tag" data-weight="85">Content Marketing</span>
-                        <span class="skill-tag" data-weight="83">Marketing Automation</span>
-                        <span class="skill-tag" data-weight="82">Facebook Ads</span>
-                        <span class="skill-tag" data-weight="80">CRM</span>
-                        <span class="skill-tag" data-weight="78">Copywriting</span>
-                        <span class="skill-tag" data-weight="75">Email Marketing</span>
-                        <span class="skill-tag" data-weight="73">Social Media</span>
-                        <span class="skill-tag" data-weight="70">UX Writing</span>
-                        <span class="skill-tag" data-weight="68">TikTok Ads</span>
-                        <span class="skill-tag" data-weight="65">LinkedIn Ads</span>
-                    </div>
-                </div>
-
-                <!-- Soft Skills -->
-                <div class="soft-skills">
-                    <h3>Soft Skills Essenciais</h3>
-                    <div class="soft-grid">
-                        <div class="soft-item">
-                            <i class="fas fa-comments"></i>
-                            <span>Comunicação</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-lightbulb"></i>
-                            <span>Criatividade</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-chart-line"></i>
-                            <span>Pensamento Analítico</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-users"></i>
-                            <span>Trabalho em Equipe</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-clock"></i>
-                            <span>Gestão de Tempo</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-sync-alt"></i>
-                            <span>Adaptabilidade</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-search"></i>
-                            <span>Curiosidade</span>
-                        </div>
-                        <div class="soft-item">
-                            <i class="fas fa-bullseye"></i>
-                            <span>Orientação a Resultados</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Especializações -->
-        <section id="especializacoes" class="section bg-pattern">
-            <div class="container">
-                <h2 class="section-title">🔍 Especializações em Alta</h2>
-                
-                <div class="specializations-detailed">
-                    <div class="spec-detailed-card">
-                        <div class="spec-header">
-                            <i class="fas fa-search"></i>
-                            <h3>SEO (Search Engine Optimization)</h3>
-                        </div>
-                        <div class="spec-body">
-                            <p><strong>O que faz:</strong> Otimiza sites para rankearem no Google</p>
-                            <p><strong>Salário médio:</strong> R$ 5.500 - R$ 12.000</p>
-                            <p><strong>Certificações:</strong> Google SEO Fundamentals, SEMrush Academy</p>
-                            <p><strong>Demanda:</strong> <span class="demand-tag alta">Alta</span></p>
-                            <div class="spec-skills">
-                                <span>SEO Técnico</span>
-                                <span>Link Building</span>
-                                <span>Keyword Research</span>
-                                <span>Analytics</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="spec-detailed-card">
-                        <div class="spec-header">
-                            <i class="fas fa-ad"></i>
-                            <h3>Mídia Paga (PPC)</h3>
-                        </div>
-                        <div class="spec-body">
-                            <p><strong>O que faz:</strong> Gerencia campanhas pagas (Google, Meta, TikTok)</p>
-                            <p><strong>Salário médio:</strong> R$ 6.000 - R$ 15.000</p>
-                            <p><strong>Certificações:</strong> Google Ads, Meta Blueprint</p>
-                            <p><strong>Demanda:</strong> <span class="demand-tag altissima">Altíssima</span></p>
-                            <div class="spec-skills">
-                                <span>Google Ads</span>
-                                <span>Facebook Ads</span>
-                                <span>ROI Analysis</span>
-                                <span>Bidding Strategies</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="spec-detailed-card">
-                        <div class="spec-header">
-                            <i class="fas fa-chart-pie"></i>
-                            <h3>Marketing Analytics</h3>
-                        </div>
-                        <div class="spec-body">
-                            <p><strong>O que faz:</strong> Analisa dados e gera insights para decisões</p>
-                            <p><strong>Salário médio:</strong> R$ 7.000 - R$ 18.000</p>
-                            <p><strong>Certificações:</strong> Google Analytics, Data Studio, SQL</p>
-                            <p><strong>Demanda:</strong> <span class="demand-tag altissima">Altíssima</span></p>
-                            <div class="spec-skills">
-                                <span>SQL</span>
-                                <span>Python</span>
-                                <span>Tableau</span>
-                                <span>Estatística</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="spec-detailed-card">
-                        <div class="spec-header">
-                            <i class="fas fa-envelope"></i>
-                            <h3>Marketing Automation</h3>
-                        </div>
-                        <div class="spec-body">
-                            <p><strong>O que faz:</strong> Automatiza campanhas e nutrição de leads</p>
-                            <p><strong>Salário médio:</strong> R$ 6.500 - R$ 16.000</p>
-                            <p><strong>Certificações:</strong> HubSpot, RD Station, Marketo</p>
-                            <p><strong>Demanda:</strong> <span class="demand-tag alta">Alta</span></p>
-                            <div class="spec-skills">
-                                <span>Email Marketing</span>
-                                <span>Lead Scoring</span>
-                                <span>CRM</span>
-                                <span>Workflows</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Cursos e Certificações -->
-        <section id="cursos" class="section">
-            <div class="container">
-                <h2 class="section-title">📚 Formação e Certificações</h2>
-                
-                <!-- Cursos Gratuitos -->
-                <h3 class="subsection-title">🎓 Certificações Gratuitas</h3>
-                <div class="courses-grid">
-                    <div class="course-card">
-                        <div class="course-icon google">
-                            <i class="fab fa-google"></i>
-                        </div>
-                        <h4>Google Digital Garage</h4>
-                        <p>Fundamentos do Marketing Digital</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 40 horas</li>
-                            <li><i class="fas fa-certificate"></i> Certificado Google</li>
-                            <li><i class="fas fa-star"></i> 26 módulos</li>
-                        </ul>
-                        <a href="#" class="course-link">Acessar →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <div class="course-icon meta">
-                            <i class="fab fa-facebook"></i>
-                        </div>
-                        <h4>Meta Blueprint</h4>
-                        <p>Certificação em Facebook Ads</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 20 horas</li>
-                            <li><i class="fas fa-certificate"></i> Certificação Meta</li>
-                            <li><i class="fas fa-star"></i> Níveis: Associate, Professional</li>
-                        </ul>
-                        <a href="#" class="course-link">Acessar →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <div class="course-icon hubspot">
-                            <i class="fab fa-hubspot"></i>
-                        </div>
-                        <h4>HubSpot Academy</h4>
-                        <p>Inbound Marketing Certification</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 30 horas</li>
-                            <li><i class="fas fa-certificate"></i> Certificação HubSpot</li>
-                            <li><i class="fas fa-star"></i> 7 cursos</li>
-                        </ul>
-                        <a href="#" class="course-link">Acessar →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <div class="course-icon semrush">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h4>SEMrush Academy</h4>
-                        <p>SEO Fundamentals</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 15 horas</li>
-                            <li><i class="fas fa-certificate"></i> Certificação SEMrush</li>
-                            <li><i class="fas fa-star"></i> 5 módulos</li>
-                        </ul>
-                        <a href="#" class="course-link">Acessar →</a>
-                    </div>
-                </div>
-
-                <!-- Cursos Pagos -->
-                <h3 class="subsection-title">💼 Cursos Profissionalizantes</h3>
-                <div class="courses-grid">
-                    <div class="course-card paid">
-                        <div class="course-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h4>EBAC</h4>
-                        <p>Profissão: Analista de Marketing Digital</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 12 meses</li>
-                            <li><i class="fas fa-certificate"></i> Certificação EBAC</li>
-                            <li><i class="fas fa-dollar-sign"></i> R$ 500/mês</li>
-                        </ul>
-                        <a href="#" class="course-link">Conhecer →</a>
-                    </div>
-
-                    <div class="course-card paid">
-                        <div class="course-icon">
-                            <i class="fas fa-laptop"></i>
-                        </div>
-                        <h4>Digital House</h4>
-                        <p>Certified Tech Digital Marketing</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 6 meses</li>
-                            <li><i class="fas fa-certificate"></i> Certificação DH</li>
-                            <li><i class="fas fa-dollar-sign"></i> R$ 800/mês</li>
-                        </ul>
-                        <a href="#" class="course-link">Conhecer →</a>
-                    </div>
-
-                    <div class="course-card paid">
-                        <div class="course-icon">
-                            <i class="fas fa-university"></i>
-                        </div>
-                        <h4>ESPM</h4>
-                        <p>MBA em Marketing Digital</p>
-                        <ul class="course-details">
-                            <li><i class="far fa-clock"></i> 18 meses</li>
-                            <li><i class="fas fa-certificate"></i> Pós-graduação</li>
-                            <li><i class="fas fa-dollar-sign"></i> R$ 1.500/mês</li>
-                        </ul>
-                        <a href="#" class="course-link">Conhecer →</a>
-                    </div>
-                </div>
-
-                <!-- Notas de Corte Graduação -->
-                <div class="cut-score-section glass-effect">
-                    <h3>Notas de Corte - Graduação em Marketing (ENEM 2026)</h3>
-                    <div class="universities-grid">
-                        <div class="uni-card">
-                            <h4>USP</h4>
-                            <div class="score">740-790</div>
-                            <small>Marketing (FEA)</small>
-                        </div>
-                        <div class="uni-card">
-                            <h4>FGV</h4>
-                            <div class="score">720-770</div>
-                            <small>Administração com ênfase</small>
-                        </div>
-                        <div class="uni-card">
-                            <h4>ESPM</h4>
-                            <div class="score">700-750</div>
-                            <small>Marketing</small>
-                        </div>
-                        <div class="uni-card">
-                            <h4>PUC-RJ</h4>
-                            <div class="score">680-730</div>
-                            <small>Comunicação Digital</small>
-                        </div>
-                        <div class="uni-card">
-                            <h4>UFMG</h4>
-                            <div class="score">670-720</div>
-                            <small>Publicidade</small>
-                        </div>
-                        <div class="uni-card">
-                            <h4>UFRJ</h4>
-                            <div class="score">660-710</div>
-                            <small>Comunicação</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Mercado de Trabalho -->
-        <section id="mercado" class="section bg-dark">
-            <div class="container">
-                <h2 class="section-title light">📈 Mercado de Trabalho 2026</h2>
-                
-                <div class="market-grid">
-                    <div class="market-card">
-                        <i class="fas fa-building"></i>
-                        <h4>Setores que mais contratam</h4>
-                        <ul>
-                            <li><span class="percent">35%</span> Agências Digitais</li>
-                            <li><span class="percent">28%</span> E-commerce</li>
-                            <li><span class="percent">20%</span> Tecnologia/SaaS</li>
-                            <li><span class="percent">12%</span> Varejo Tradicional</li>
-                            <li><span class="percent">5%</span> Indústria</li>
-                        </ul>
-                    </div>
-
-                    <div class="market-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h4>Distribuição por Região</h4>
-                        <ul>
-                            <li><span class="percent">52%</span> Sudeste</li>
-                            <li><span class="percent">18%</span> Sul</li>
-                            <li><span class="percent">15%</span> Nordeste</li>
-                            <li><span class="percent">10%</span> Centro-Oeste</li>
-                            <li><span class="percent">5%</span> Norte</li>
-                        </ul>
-                    </div>
-
-                    <div class="market-card">
-                        <i class="fas fa-chart-line"></i>
-                        <h4>Tendências de Contratação</h4>
-                        <ul>
-                            <li><span class="trend up">↑ 45%</span> Marketing Analytics</li>
-                            <li><span class="trend up">↑ 40%</span> SEO</li>
-                            <li><span class="trend up">↑ 38%</span> TikTok Ads</li>
-                            <li><span class="trend up">↑ 35%</span> Marketing Automation</li>
-                            <li><span class="trend up">↑ 30%</span> Growth Hacking</li>
-                        </ul>
-                    </div>
-
-                    <div class="market-card">
-                        <i class="fas fa-clock"></i>
-                        <h4>Modalidades de Trabalho</h4>
-                        <ul>
-                            <li><span class="percent">55%</span> Home Office</li>
-                            <li><span class="percent">30%</span> Híbrido</li>
-                            <li><span class="percent">15%</span> Presencial</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Empresas que mais contratam -->
-                <div class="companies-section">
-                    <h3>Empresas que Mais Contratam no Brasil</h3>
-                    <div class="companies-cloud">
-                        <span class="company-tag">Google</span>
-                        <span class="company-tag">Meta</span>
-                        <span class="company-tag">Amazon</span>
-                        <span class="company-tag">Mercado Livre</span>
-                        <span class="company-tag">Nubank</span>
-                        <span class="company-tag">Ifood</span>
-                        <span class="company-tag">Rappi</span>
-                        <span class="company-tag">Stone</span>
-                        <span class="company-tag">PagSeguro</span>
-                        <span class="company-tag">Via Varejo</span>
-                        <span class="company-tag">Magazine Luiza</span>
-                        <span class="company-tag">Americanas</span>
-                        <span class="company-tag">Natura</span>
-                        <span class="company-tag">Unilever</span>
-                        <span class="company-tag">P&G</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Tendências 2026 -->
-        <section class="section">
-            <div class="container">
-                <h2 class="section-title">🔮 Tendências para 2026-2027</h2>
-                
-                <div class="trends-container-detailed">
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h4>IA Generativa no Marketing</h4>
-                        <p>Uso de ChatGPT, Midjourney e outras IAs para criação de conteúdo em escala</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 95%</span>
-                            <div class="progress"><div style="width:95%"></div></div>
-                        </div>
-                    </div>
-
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-video"></i>
-                        </div>
-                        <h4>Vídeo Curto (Short-form)</h4>
-                        <p>Reels, TikTok e Shorts dominam o engajamento</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 92%</span>
-                            <div class="progress"><div style="width:92%"></div></div>
-                        </div>
-                    </div>
-
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-microphone"></i>
-                        </div>
-                        <h4>Busca por Voz</h4>
-                        <p>Otimização para assistentes virtuais (Alexa, Siri, Google Assistant)</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 78%</span>
-                            <div class="progress"><div style="width:78%"></div></div>
-                        </div>
-                    </div>
-
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h4>Privacidade e Dados</h4>
-                        <p>Marketing sem cookies e foco em first-party data</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 88%</span>
-                            <div class="progress"><div style="width:88%"></div></div>
-                        </div>
-                    </div>
-
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <h4>Social Commerce</h4>
-                        <p>Vendas diretas em redes sociais</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 85%</span>
-                            <div class="progress"><div style="width:85%"></div></div>
-                        </div>
-                    </div>
-
-                    <div class="trend-detailed">
-                        <div class="trend-icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <h4>SEO com IA</h4>
-                        <p>Search Generative Experience (SGE) do Google</p>
-                        <div class="trend-impact">
-                            <span>Impacto: 90%</span>
-                            <div class="progress"><div style="width:90%"></div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção FAQ -->
-        <section class="section bg-light">
-            <div class="container">
-                <h2 class="section-title">❓ Perguntas Frequentes</h2>
-                
-                <div class="faq-grid-detailed">
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>Preciso de faculdade para trabalhar com Marketing Digital?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Não é obrigatório, mas ajuda. Estatísticas mostram que:</p>
-                            <ul>
-                                <li>65% dos profissionais não têm graduação na área</li>
-                                <li>Profissionais com graduação ganham 35% mais em média</li>
-                                <li>Certificações específicas são mais valorizadas que diploma em muitos casos</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>Quanto tempo leva para começar a ganhar bem?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Com dedicação, é possível atingir R$5k em 1-2 anos. A progressão típica:</p>
-                            <ul>
-                                <li>6 meses: R$ 2.000 - R$ 2.500</li>
-                                <li>1 ano: R$ 3.000 - R$ 4.000</li>
-                                <li>2 anos: R$ 4.500 - R$ 6.000</li>
-                                <li>3 anos: R$ 6.000 - R$ 8.000+</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>Qual área tem mais vagas?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Em ordem de volume de vagas (2026):</p>
-                            <ol>
-                                <li>Social Media - 3.500 vagas/mês</li>
-                                <li>Google Ads - 3.200 vagas/mês</li>
-                                <li>SEO - 2.800 vagas/mês</li>
-                                <li>Content Marketing - 2.500 vagas/mês</li>
-                                <li>Marketing Analytics - 2.100 vagas/mês</li>
-                            </ol>
-                        </div>
-                    </div>
-
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>É possível trabalhar de casa?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Sim! O Marketing Digital é uma das áreas com maior índice de home office:</p>
-                            <ul>
-                                <li>85% das vagas permitem trabalho remoto</li>
-                                <li>55% são 100% home office</li>
-                                <li>30% são híbridas</li>
-                                <li>Apenas 15% exigem presencial</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>Preciso saber inglês?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Não é obrigatório, mas profissionais com inglês avançado:</p>
-                            <ul>
-                                <li>Ganham 35-50% mais</li>
-                                <li>Têm acesso a vagas internacionais</li>
-                                <li>Conseguem consumir conteúdo mais atualizado</li>
-                                <li>Podem trabalhar para empresas gringas (salários em dólar)</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="faq-item-detailed">
-                        <div class="faq-question">
-                            <h3>Qual certificação mais vale a pena?</h3>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>As mais requisitadas em 2026:</p>
-                            <ol>
-                                <li>Google Ads Certification</li>
-                                <li>Google Analytics Individual Qualification</li>
-                                <li>Meta Blueprint Certification</li>
-                                <li>HubSpot Inbound Marketing</li>
-                                <li>SEMrush SEO Toolkit</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Depoimentos -->
-        <section class="section">
-            <div class="container">
-                <h2 class="section-title">⭐ Depoimentos de Profissionais</h2>
-                
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="testimonial-img">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"Comecei como estagiária em 2023, hoje sou coordenadora de SEO em uma startup. Em 3 anos meu salário quadruplicou."</p>
-                            <h4>Ana Silva</h4>
-                            <span>Coordenadora de SEO | Salário: R$ 14.000</span>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-img">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"Fiz transição de carreira aos 35 anos. Em 2 anos já estava ganhando mais que na minha área anterior."</p>
-                            <h4>Carlos Santos</h4>
-                            <span>Especialista em Google Ads | Salário: R$ 11.000</span>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-img">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"Trabalho para uma empresa dos EUA ganhando em dólar. Marketing Digital mudou minha vida."</p>
-                            <h4>Mariana Costa</h4>
-                            <span>Marketing Analyst | US$ 4.500/mês</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Newsletter Aprimorada -->
-    <section class="newsletter-enhanced">
-        <div class="container">
-            <div class="newsletter-content glass-effect">
-                <h2>🚀 Receba Conteúdo Exclusivo</h2>
-                <p>Guia de carreira, vagas selecionadas, tendências e muito mais</p>
-                
-                <div class="benefits">
-                    <div class="benefit">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Vagas toda semana</span>
-                    </div>
-                    <div class="benefit">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Materiais gratuitos</span>
-                    </div>
-                    <div class="benefit">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Descontos em cursos</span>
-                    </div>
-                    <div class="benefit">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Comunidade exclusiva</span>
-                    </div>
-                </div>
-
-                <form class="newsletter-form-enhanced">
-                    <input type="text" placeholder="Seu nome" required>
-                    <input type="email" placeholder="Seu melhor email" required>
-                    <button type="submit" class="cta-button pulse">
-                        Quero receber conteúdos <i class="fas fa-arrow-right"></i>
-                    </button>
-                </form>
-                <small>🔒 100% gratuito | Cancel when you want</small>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Aprimorado -->
-    <footer class="footer-enhanced">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <i class="fas fa-rocket"></i>
-                        <span>Marketing<span class="highlight">Pro</span></span>
-                    </div>
-                    <p>Maior comunidade de Marketing Digital do Brasil. Transformando carreiras desde 2020.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Conteúdo</h4>
-                    <ul>
-                        <li><a href="#sobre">Guia de Carreira</a></li>
-                        <li><a href="#salarios">Tabela Salarial</a></li>
-                        <li><a href="#cursos">Certificações</a></li>
-                        <li><a href="#">E-books Gratuitos</a></li>
-                        <li><a href="#">Webinars</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Comunidade</h4>
-                    <ul>
-                        <li><a href="#">Fórum</a></li>
-                        <li><a href="#">Grupo WhatsApp</a></li>
-                        <li><a href="#">Discord</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="#">Mentoria</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Suporte</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Parceiros</a></li>
-                        <li><a href="#">Trabalhe conosco</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Contato</h4>
-                    <ul class="contact-info">
-                        <li><i class="fas fa-envelope"></i> contato@marketingpro.com.br</li>
-                        <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
-                        <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 MarketingPro. Todos os direitos reservados.</p>
-                <div class="footer-links">
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos de Uso</a>
-                    <a href="#">Cookies</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+/* ===== VARIÁVEIS E RESET ===== */
+:root {
+    --primary: #4361ee;
+    --primary-dark: #3a56d4;
+    --secondary: #3f37c9;
+    --accent: #4cc9f0;
+    --success: #06d6a0;
+    --warning: #ffd166;
+    --danger: #ef476f;
+    --dark: #1a1a2e;
+    --dark-light: #16213e;
+    --light: #f8f9fa;
+    --gray: #6c757d;
+    --gray-light: #e9ecef;
+    --white: #ffffff;
+    --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+    --gradient-accent: linear-gradient(135deg, var(--accent), var(--success));
+    --gradient-warning: linear-gradient(135deg, #f72585, #b5179e);
+    --shadow: 0 10px 30px rgba(0,0,0,0.1);
+    --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
+    --shadow-card: 0 15px 35px rgba(67, 97, 238, 0.15);
+    --transition: all 0.3s ease;
+    --border-radius: 20px;
+    --border-radius-sm: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background: var(--light);
+}
+
+/* ===== UTILITÁRIOS ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 60px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.subsection-title {
+    font-size: 2rem;
+    margin: 50px 0 30px;
+    color: var(--dark);
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.subsection-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: var(--gradient);
+    border-radius: 2px;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: var(--shadow);
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-gradient::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(67,97,238,0.03) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.bg-dark {
+    background: linear-gradient(135deg, var(--dark), var(--dark-light));
+    color: var(--white);
+}
+
+.bg-dark .section-title {
+    color: var(--white);
+    -webkit-text-fill-color: white;
+}
+
+.bg-pattern {
+    background: linear-gradient(135deg, var(--white) 0%, var(--gray-light) 100%);
+    position: relative;
+}
+
+.bg-pattern::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><path d="M30 0 L60 30 L30 60 L0 30 Z" fill="rgba(67,97,238,0.02)"/></svg>');
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.bg-light {
+    background: var(--light);
+}
+
+/* ===== NAVEGAÇÃO ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+}
+
+.navbar.scrolled {
+    background: rgba(255,255,255,0.95);
+    box-shadow: var(--shadow);
+}
+
+.navbar.scrolled .nav-menu a {
+    color: var(--dark);
+}
+
+.navbar.scrolled .nav-menu a:hover {
+    color: var(--primary);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo i {
+    font-size: 2rem;
+    color: var(--accent);
+}
+
+.logo .highlight {
+    color: var(--accent);
+}
+
+.navbar.scrolled .logo {
+    color: var(--dark);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    font-size: 1rem;
+    position: relative;
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: var(--transition);
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+.nav-menu a:hover {
+    color: var(--accent);
+}
+
+.nav-cta {
+    background: var(--white);
+    color: var(--primary) !important;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    box-shadow: var(--shadow);
+}
+
+.nav-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+.nav-cta::after {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 3px;
+    background: var(--white);
+    margin: 3px 0;
+    transition: var(--transition);
+    border-radius: 3px;
+}
+
+.navbar.scrolled .hamburger span {
+    background: var(--dark);
+}
+
+/* ===== HEADER ===== */
+header {
+    background: var(--gradient);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100%" height="100%" viewBox="0 0 1440 800" xmlns="http://www.w3.org/2000/svg"><path d="M0 600 L1440 400 L1440 800 L0 800 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+    background-size: cover;
+    pointer-events: none;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+.header-text h1 {
+    font-size: 4.2rem;
+    color: var(--white);
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.glitch {
+    position: relative;
+    animation: glitch 3s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.glitch::before {
+    animation: glitch-top 0.3s infinite linear alternate-reverse;
+    color: #ff00c1;
+    z-index: -1;
+}
+
+.glitch::after {
+    animation: glitch-bottom 0.3s infinite linear alternate-reverse;
+    color: #00fff9;
+    z-index: -2;
+}
+
+@keyframes glitch {
+    0%, 100% { transform: none; opacity: 1; }
+    7% { transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+    10% { transform: none; opacity: 1; }
+    27% { transform: none; opacity: 1; }
+    30% { transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+    35% { transform: none; opacity: 1; }
+    52% { transform: none; opacity: 1; }
+    55% { transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+    50% { transform: none; opacity: 1; }
+    72% { transform: none; opacity: 1; }
+    75% { transform: skew(0.4deg, 1deg); opacity: 0.75; }
+    80% { transform: none; opacity: 1; }
+}
+
+@keyframes glitch-top {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
+@keyframes glitch-bottom {
+    0% { transform: translate(0); }
+    20% { transform: translate(2px, -2px); }
+    40% { transform: translate(2px, 2px); }
+    60% { transform: translate(-2px, -2px); }
+    80% { transform: translate(-2px, 2px); }
+    100% { transform: translate(0); }
+}
+
+.typing-effect {
+    font-size: 1.4rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 40px;
+    border-right: 3px solid var(--accent);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3.5s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--accent) }
+}
+
+.header-stats {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(5px);
+    min-width: 120px;
+}
+
+.stat-number {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--white);
+    display: inline-block;
+}
+
+.stat-label {
+    display: block;
+    color: rgba(255,255,255,0.9);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 45px;
+    background: var(--white);
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+    background: var(--accent);
+    color: var(--white);
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255,255,255,0.7); }
+    70% { box-shadow: 0 0 0 20px rgba(255,255,255,0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+}
+
+.header-image {
+    position: relative;
+    height: 500px;
+}
+
+.floating-card {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--primary);
+    box-shadow: var(--shadow-hover);
+    backdrop-filter: blur(5px);
+    animation: float 4s ease-in-out infinite;
+}
+
+.floating-card:nth-child(1) {
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.floating-card:nth-child(2) {
+    top: 40%;
+    right: 20%;
+    animation-delay: 0.5s;
+}
+
+.floating-card:nth-child(3) {
+    bottom: 20%;
+    left: 30%;
+    animation-delay: 1s;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-20px) rotate(5deg); }
+    75% { transform: translateY(20px) rotate(-5deg); }
+}
+
+/* ===== STATS GRID ===== */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.stat-card {
+    background: var(--white);
+    padding: 35px 25px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-hover);
+}
+
+.stat-card i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    color: var(--dark);
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+/* ===== CARDS GRID ===== */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 35px 25px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(67,97,238,0.1);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--gradient);
+    transform: translateX(-100%);
+    transition: var(--transition);
+}
+
+.card:hover::before {
+    transform: translateX(0);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: var(--shadow-card);
+}
+
+.hover-3d {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.hover-3d:hover {
+    transform: rotateX(2deg) rotateY(2deg) scale(1.02);
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: var(--transition);
+}
+
+.card:hover .card-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.card-icon i {
+    font-size: 2.2rem;
+    color: var(--white);
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+.card p {
+    color: var(--gray);
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.card-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.card-list li {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark);
+}
+
+.card-list i {
+    color: var(--success);
+    font-size: 1.1rem;
+}
+
+.card-footer {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--gray-light);
+}
+
+.salary-badge {
+    background: var(--gradient);
+    color: var(--white);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+/* ===== TABELA SALARIAL ===== */
+.salary-table-container {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    box-shadow: var(--shadow);
+    margin-bottom: 50px;
+}
+
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+.salary-table thead {
+    background: var(--gradient);
+    color: var(--white);
+}
+
+.salary-table th {
+    padding: 20px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.salary-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--gray-light);
+    color: var(--dark);
+}
+
+.salary-table tbody tr:hover {
+    background: rgba(67,97,238,0.02);
+}
+
+.salary-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.salary-table strong {
+    color: var(--primary);
+}
+
+/* ===== ESPECIALIZAÇÃO GRID ===== */
+.specialization-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.spec-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.spec-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gradient);
+}
+
+.spec-card:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.spec-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+.spec-salary {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.demand {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.demand.high {
+    background: rgba(6, 214, 160, 0.15);
+    color: var(--success);
+}
+
+.demand.very-high {
+    background: rgba(239, 71, 111, 0.15);
+    color: var(--danger);
+}
+
+.demand.medium {
+    background: rgba(255, 209, 102, 0.15);
+    color: var(--warning);
+}
+
+.spec-details {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--gray-light);
+}
+
+.spec-details p {
+    margin: 8px 0;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.spec-details i {
+    color: var(--primary);
+}
+
+/* ===== REGIÃO GRID ===== */
+.region-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.region-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 25px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.region-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.region-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+.region-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.region-card small {
+    color: var(--gray);
+}
+
+/* ===== COMPARISON BOX ===== */
+.comparison-box {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 40px;
+    margin: 50px 0;
+    box-shadow: var(--shadow);
+}
+
+.comparison-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: var(--dark);
+}
+
+.comparison-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.comp-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.comp-item span:first-child {
+    min-width: 150px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.progress-bar {
+    flex: 1;
+    height: 40px;
+    background: var(--gray-light);
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: var(--gradient);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    transition: width 1s ease;
+}
+
+.progress.highlight-bar {
+    background: var(--gradient-warning);
+}
+
+.comparison-note {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(6, 214, 160, 0.1);
+    border-radius: var(--border-radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--dark);
+}
+
+.comparison-note i {
+    font-size: 1.5rem;
+    color: var(--success);
+}
+
+.comparison-note strong {
+    color: var(--primary);
+}
+
+/* ===== FACTORS BOX ===== */
+.factors-box {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.factors-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: var(--dark);
+}
+
+.factors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.factor-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: var(--light);
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition);
+}
+
+.factor-item:hover {
+    transform: translateX(5px);
+    background: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.factor-percent {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--success);
+    min-width: 60px;
+}
+
+.factor-item span:last-child {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+/* ===== TIMELINE DETALHADA ===== */
+.timeline-detailed {
+    position: relative;
+    padding: 40px 0;
+    margin: 50px 0;
+}
+
+.timeline-detailed::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--gradient);
+    border-radius: 2px;
+}
+
+.timeline-phase {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+
+.timeline-phase::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    border: 4px solid var(--primary);
+    border-radius: 50%;
+    z-index: 2;
+    transition: var(--transition);
+}
+
+.timeline-phase:hover::before {
+    background: var(--primary);
+    transform: scale(1.2);
+}
+
+.phase-header {
+    margin-bottom: 20px;
+}
+
+.phase-year {
+    display: inline-block;
+    padding: 5px 15px;
+    background: var(--gradient);
+    color: var(--white);
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.phase-header h3 {
+    font-size: 1.8rem;
+    color: var(--dark);
+}
+
+.phase-content {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.phase-content:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-hover);
+}
+
+.phase-content ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.phase-content li {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--dark);
+}
+
+.phase-content li i {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.phase-outcome {
+    background: var(--light);
+    padding: 15px 20px;
+    border-radius: var(--border-radius-sm);
+    margin-top: 20px;
+    border-left: 4px solid var(--success);
+}
+
+.phase-outcome strong {
+    color: var(--success);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+/* ===== SKILLS SECTION ===== */
+.skills-section {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.skills-section h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: var(--dark);
+}
+
+.skills-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skill-tag {
+    padding: 10px 25px;
+    background: var(--white);
+    border-radius: 50px;
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 0.95rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    cursor: default;
+    border: 1px solid rgba(67,97,238,0.1);
+}
+
+.skill-tag:hover {
+    transform: scale(1.1);
+    background: var(--primary);
+    color: var(--white);
+    box-shadow: var(--shadow-card);
+}
+
+.skill-tag[data-weight="95"] { font-size: 1.3rem; padding: 12px 30px; }
+.skill-tag[data-weight="92"] { font-size: 1.25rem; }
+.skill-tag[data-weight="90"] { font-size: 1.2rem; }
+.skill-tag[data-weight="88"] { font-size: 1.15rem; }
+.skill-tag[data-weight="85"] { font-size: 1.1rem; }
+
+/* ===== SOFT SKILLS ===== */
+.soft-skills {
+    margin: 60px 0;
+}
+
+.soft-skills h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--dark);
+}
+
+.soft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
+
+.soft-item {
+    background: var(--white);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    cursor: default;
+}
+
+.soft-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: var(--shadow-card);
+    background: var(--gradient);
+    color: var(--white);
+}
+
+.soft-item:hover i,
+.soft-item:hover span {
+    color: var(--white);
+}
+
+.soft-item i {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+    transition: var(--transition);
+}
+
+.soft-item span {
+    display: block;
+    font-weight: 500;
+    color: var(--dark);
+    transition: var(--transition);
+}
+
+/* ===== ESPECIALIZAÇÕES DETALHADAS ===== */
+.specializations-detailed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.spec-detailed-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.spec-detailed-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-card);
+}
+
+.spec-header {
+    background: var(--gradient);
+    padding: 25px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.spec-header i {
+    font-size: 2rem;
+}
+
+.spec-header h3 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.spec-body {
+    padding: 25px;
+}
+
+.spec-body p {
+    margin: 10px 0;
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+.spec-body strong {
+    color: var(--primary);
+}
+
+.demand-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.demand-tag.alta {
+    background: rgba(6, 214, 160, 0.15);
+    color: var(--success);
+}
+
+.demand-tag.altissima {
+    background: rgba(239, 71, 111, 0.15);
+    color: var(--danger);
+}
+
+.spec-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.spec-skills span {
+    background: var(--light);
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    color: var(--gray);
+    border: 1px solid rgba(67,97,238,0.1);
+}
+
+/* ===== COURSES GRID ===== */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.course-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.course-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient);
+}
+
+.course-card.paid::before {
+    background: var(--gradient-warning);
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-card);
+}
+
+.course-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    background: var(--light);
+}
+
+.course-icon.google i { color: #4285F4; }
+.course-icon.meta i { color: #4267B2; }
+.course-icon.hubspot i { color: #FF4F19; }
+.course-icon.semrush i { color: #FF642D; }
+
+.course-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+.course-card p {
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.course-details {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.course-details li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark);
+    font-size: 0.95rem;
+}
+
+.course-details i
